@@ -1,3 +1,5 @@
+all: build
+
 ipxe:
 	git clone git@github.com:ipxe/ipxe.git --depth 1
 
