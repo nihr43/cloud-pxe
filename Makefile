@@ -1,7 +1,7 @@
 all: build
 
 ipxe:
-	git clone git@github.com:ipxe/ipxe.git --depth 1
+	git clone git@github.com:ipxe/ipxe.git
 
 ipxe/src/bin/ipxe.pxe: ipxe
 	$(MAKE) -C ipxe/src all -j4
